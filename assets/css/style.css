@@ -24,8 +24,9 @@ nav {
     background-color: azure;
     border-radius: 1rem;
     z-index: 99;
-    margin-left: auto;
-    margin: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 80vw;
 }
 
 main {
