@@ -1,5 +1,7 @@
 /* Header */
-header {}
+header {
+    background-color: azure;
+}
 
 /* Hero section */
 #hero {
@@ -7,4 +9,8 @@ header {}
     width: 100%;
     background: no-repeat center center/cover url(../images/hero1.png);
     position: relative;
+}
+
+footer {
+    background-color: green;
 }
