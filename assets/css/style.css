@@ -31,11 +31,15 @@ nav {
     z-index: 99;
     display: flex;
     justify-content: flex-end;
-    margin-left: 80vw;
+    margin-left: 70vw;
 }
 
 #menu {
     list-style-type: none;
+}
+
+.active {
+    border-bottom: 1px;
 }
 
 main {
