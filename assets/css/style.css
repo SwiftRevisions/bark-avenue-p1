@@ -5,8 +5,8 @@
     box-sizing: border-box;
 }
 
-/* General styles */g
-body {
+/* General styles */
+g body {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -15,6 +15,17 @@ body {
 /* Header */
 header {
     background-color: azure;
+    padding: 1rem;
+}
+
+/* drop down navigation bar */
+nav {
+    position: absolute;
+    background-color: azure;
+    border-radius: 1rem;
+    z-index: 99;
+    margin-left: auto;
+    margin: 1rem;
 }
 
 main {
