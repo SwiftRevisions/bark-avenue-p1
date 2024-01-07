@@ -1,5 +1,10 @@
 /* Header */
-header {
-    background-image: no-repeat center/cover url(../images/hero1.png);
+header {}
 
+/* Hero section */
+#hero {
+    height: 700px;
+    width: 100%;
+    background: no-repeat center center/cover url(../images/hero1.png);
+    position: relative;
 }
