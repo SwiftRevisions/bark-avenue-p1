@@ -35,11 +35,12 @@ nav {
 }
 
 #menu {
+    letter-spacing: 5px;
     list-style-type: none;
 }
 
 .active {
-    border-bottom: 1px;
+    border-bottom: 1px solid #000000;
 }
 
 main {
