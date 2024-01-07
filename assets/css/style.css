@@ -20,7 +20,7 @@ header {
 
 header a {
     text-decoration: none;
-    color; inherit;
+    color: inherit;
 }
 
 /* drop down navigation bar */
@@ -32,6 +32,10 @@ nav {
     display: flex;
     justify-content: flex-end;
     margin-left: 80vw;
+}
+
+#menu {
+    list-style-type: none;
 }
 
 main {
