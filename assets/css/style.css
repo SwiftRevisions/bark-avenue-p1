@@ -40,7 +40,10 @@ nav {
     list-style-type: none;
 }
 
-
+.menu-div {
+    display: flex;
+    margin-left: 70vw;
+}
 
 /* Show the menu when the checkbox is checked */
 #menu-toggle:checked~nav {
