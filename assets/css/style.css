@@ -32,11 +32,19 @@ nav {
     display: flex;
     justify-content: flex-end;
     margin-left: 70vw;
+    display: none;
 }
 
 #menu {
     letter-spacing: 5px;
     list-style-type: none;
+}
+
+
+
+/* Show the menu when the checkbox is checked */
+#menu-toggle:checked~nav {
+    display: block;
 }
 
 .active {
