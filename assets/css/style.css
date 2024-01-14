@@ -42,7 +42,12 @@ nav {
 
 .menu-div {
     display: flex;
-    margin-left: 70vw;
+    justify-content: flex-end;
+    right: 0;
+}
+
+#menu-toggle {
+    display: none;
 }
 
 /* Show the menu when the checkbox is checked */
