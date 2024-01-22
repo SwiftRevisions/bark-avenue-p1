@@ -68,7 +68,7 @@ main {
 #hero {
     height: 700px;
     width: 100%;
-    background: no-repeat center center/cover url(../images/hero1.png);
+    background: no-repeat center center/cover url(../images/hero1.webp);
     position: relative;
 }
 
