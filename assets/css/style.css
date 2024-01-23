@@ -46,13 +46,13 @@ header a {
 nav {
     position: absolute;
     background-color: #E1DBCA;
-    border-bottom-left-radius: 1rem;
+    border-radius: 1rem;
     z-index: 99;
     display: flex;
     justify-content: space-between;
     align-items: center;
     right: 0;
-    top: 69px;
+    top: 80px;
     display: none;
 }
 
