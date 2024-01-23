@@ -28,6 +28,7 @@ header a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: auto;
 }
 
 /* drop down navigation bar */
