@@ -106,9 +106,13 @@ main {
     z-index: 1;
     margin-top: 0;
     padding-top: 69px;
+    flex-grow: 1;
 }
 
 footer {
+    margin-top: 609px;
     background-color: green;
     flex-shrink: 0;
+    padding: 20px;
+    z-index: 2;
 }
