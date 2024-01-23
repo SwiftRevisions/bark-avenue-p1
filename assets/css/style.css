@@ -27,8 +27,7 @@ header a {
 .header-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-left: auto;
+    margin: auto;
 }
 
 /* drop down navigation bar */
@@ -45,10 +44,16 @@ nav {
     display: none;
 }
 
-#logo {
-    display: flex;
-    justify-content: flex-start;
+#quick-booking {
+    border: solid 1px black;
+    padding: 10px;
 }
+
+#logo {
+    align-items: center;
+    border: solid 1px black;
+    padding: 10px;
+    }
 
 #menu {
     letter-spacing: 5px;
@@ -60,6 +65,8 @@ nav {
     display: flex;
     justify-content: flex-end;
     right: 0;
+    border: solid 1px black;
+    padding: 10px;
 }
 
 #menu-toggle {
