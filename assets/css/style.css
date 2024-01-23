@@ -24,6 +24,12 @@ header a {
     color: inherit;
 }
 
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* drop down navigation bar */
 nav {
     position: absolute;
