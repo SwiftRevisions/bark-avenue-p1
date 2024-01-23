@@ -1,3 +1,8 @@
+/* Google fonts import */
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap');
+</style>
+
 /* override webbrowser defaults */
 * {
     padding: 0;
@@ -6,10 +11,13 @@
 }
 
 /* General styles */
-g body {
+body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    /* General Styles */
+    color: #3D3C41;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /* Header */
@@ -59,6 +67,7 @@ nav {
     align-items: center;
     border: solid 1px black;
     padding: 10px;
+    font-family: 'Outfit', sans-serif;
     }
 
 #menu {
@@ -113,6 +122,5 @@ footer {
     margin-top: 609px;
     background-color: green;
     flex-shrink: 0;
-    padding: 20px;
     z-index: 2;
 }
