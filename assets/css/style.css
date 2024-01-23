@@ -9,7 +9,7 @@
 g body {
     height: 100vh;
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
 }
 
 /* Header */
@@ -17,6 +17,10 @@ header {
     background-color: rgba(255, 255, 255, 0);
     padding: 1rem;
     display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 98;
 }
 
 header a {
@@ -93,8 +97,12 @@ main {
     height: 700px;
     width: 100%;
     background: no-repeat center center/cover url(../images/hero1.webp);
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
     margin-top: 0;
+    padding-top: 69px;
 }
 
 footer {
