@@ -45,7 +45,7 @@ header a {
 /* drop down navigation bar */
 nav {
     position: absolute;
-    background-color: azure;
+    background-color: #E1DBCA;
     border-bottom-left-radius: 1rem;
     z-index: 99;
     display: flex;
@@ -57,17 +57,19 @@ nav {
 }
 
 #quick-booking {
-    background-color: azure;
-    border: solid 1px black;
+    background-color: #E1DBCA;
+    border: solid 1px #3D3C41;
     padding: 10px;
+    border-radius: 1rem;
 }
 
 #logo {
-    background-color: azure;
+    background-color: #E1DBCA;
     align-items: center;
-    border: solid 1px black;
+    border: solid 1px #3D3C41;
     padding: 10px;
     font-family: 'Outfit', sans-serif;
+    border-radius: 1rem;
     }
 
 #menu {
@@ -77,12 +79,13 @@ nav {
 }
 
 .menu-div {
-    background-color: azure;
+    background-color: #E1DBCA;
     display: flex;
     justify-content: flex-end;
     right: 0;
-    border: solid 1px black;
+    border: solid 1px #3D3C41;
     padding: 10px;
+    border-radius: 1rem;
 }
 
 #menu-toggle {
@@ -95,7 +98,7 @@ nav {
 }
 
 .active {
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #3D3C41;
 }
 
 main {
@@ -114,7 +117,7 @@ main {
     left: 0;
     z-index: 1;
     margin-top: 0;
-    padding-top: 69px;
+    padding-top: 80px;
     flex-grow: 1;
 }
 
